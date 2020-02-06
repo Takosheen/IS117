@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css">
+        body {
+            background-color: blue;
+            transition: background-color 500ms;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+    var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+    var i = 1;
+
+    window.setInterval(function(){
+        document.body.style.backgroundColor = colors[i];
+        i++;
+        if (i === colors.length){
+            i=0;
+        }
+    }, 5000);
+</script>
+<ul>
+    <li><a href="index.html">Click here to return to original website</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="https://github.com/Takosheen/Day2">Project 1</a></li>
+    <li><a href="https://github.com/Takosheen/WebDev117">Project 2</a></li>
+    <a><br><br><br>Wait here... for rainbow...</a>
+</ul>
+</body>
+</html>
